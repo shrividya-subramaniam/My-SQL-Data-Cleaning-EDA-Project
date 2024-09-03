@@ -36,7 +36,7 @@ The following SQL queries were executed to analyze the layoffs data:
 
 1. **Maximum Values Analysis**
    
-  Selected the maximum values of 'total_laid_off' and 'percentage_laid_off' to identify the companies with the highest layoffs.
+   Selected the maximum values of 'total_laid_off' and 'percentage_laid_off' to identify the companies with the highest layoffs.
   
 2. **Complete Layoff Analysis**
 
