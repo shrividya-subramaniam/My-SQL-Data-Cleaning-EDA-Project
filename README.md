@@ -37,32 +37,41 @@ The following SQL queries were executed to analyze the layoffs data:
 1. **Maximum Values Analysis**
    
   Selected the maximum values of 'total_laid_off' and 'percentage_laid_off' to identify the companies with the highest layoffs.
+  
 2. **Complete Layoff Analysis**
 
    Selected rows where companies laid off all their staff to understand the impact on different organizations.
+   
 3. **Fund-Raised and Layoff Analysis**
    
    Selected rows where companies laid off all staff, ordered by funds_raised_millions in descending order to observe the correlation between funds raised and layoffs.
-6. **Company-Wise Layoff Sum**
+   
+4. **Company-Wise Layoff Sum**
    
    Calculated the sum of 'total_laid_off' for each company to get a company-wise distribution of layoffs.
-8. **Date Range Analysis**
+   
+5. **Date Range Analysis**
    
    Retrieved the minimum and maximum values of date to understand the time range covered in the dataset.
-10. **Industry-Wise Layoff Sum**
+   
+6. **Industry-Wise Layoff Sum**
     
    Calculated the sum of 'total_laid_off' for each industry to see the layoffs distribution across different industries.
-12. **Country-Wise Layoff Sum**
-    
+   
+7. **Country-Wise Layoff Sum**
+
    Calculated the sum of 'total_laid_off' for each country to analyze the impact on different regions.
-14. **Yearly Layoff Analysis**
+   
+8. **Yearly Layoff Analysis**
     
    Calculated the sum of 'total_laid_off' by each year to observe annual trends in layoffs.
-16. **Company Stage Analysis**
+   
+9. **Company Stage Analysis**
     
    Calculated the sum of 'total_laid_off' for companies at each stage (e.g., startup, growth, mature) to see how layoffs vary with company maturity.
 
-18. **Monthly and Yearly Layoff Trends**
+10. **Monthly and Yearly Layoff Trends**
+ 
    Calculated the sum of 'total_laid_off' by both month and year to identify seasonal or yearly patterns in layoffs.
 
 
