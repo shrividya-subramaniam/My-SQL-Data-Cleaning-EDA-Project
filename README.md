@@ -35,43 +35,33 @@ funds_raised_millions | Funds (in millions) raised by the company
 The following SQL queries were executed to analyze the layoffs data:
 
 1. **Maximum Values Analysis**
-   
-Selected the maximum values of 'total_laid_off' and 'percentage_laid_off' to identify the companies with the highest layoffs.
+  Selected the maximum values of 'total_laid_off' and 'percentage_laid_off' to identify the companies with the highest layoffs.
 
 3. **Complete Layoff Analysis**
-
-Selected rows where companies laid off all their staff to understand the impact on different organizations.
+   Selected rows where companies laid off all their staff to understand the impact on different organizations.
 
 4. **Fund-Raised and Layoff Analysis**
-
-Selected rows where companies laid off all staff, ordered by funds_raised_millions in descending order to observe the correlation between funds raised and layoffs.
+   Selected rows where companies laid off all staff, ordered by funds_raised_millions in descending order to observe the correlation between funds raised and layoffs.
 
 5. **Company-Wise Layoff Sum**
-
-Calculated the sum of 'total_laid_off' for each company to get a company-wise distribution of layoffs.
+   Calculated the sum of 'total_laid_off' for each company to get a company-wise distribution of layoffs.
 
 6. **Date Range Analysis**
-
-Retrieved the minimum and maximum values of date to understand the time range covered in the dataset.
+   Retrieved the minimum and maximum values of date to understand the time range covered in the dataset.
 
 7. **Industry-Wise Layoff Sum**
-
-Calculated the sum of 'total_laid_off' for each industry to see the layoffs distribution across different industries.
+   Calculated the sum of 'total_laid_off' for each industry to see the layoffs distribution across different industries.
 
 8. **Country-Wise Layoff Sum**
-
-Calculated the sum of 'total_laid_off' for each country to analyze the impact on different regions.
+   Calculated the sum of 'total_laid_off' for each country to analyze the impact on different regions.
 
 9. **Yearly Layoff Analysis**
-
-Calculated the sum of 'total_laid_off' by each year to observe annual trends in layoffs.
+   Calculated the sum of 'total_laid_off' by each year to observe annual trends in layoffs.
 
 10. **Company Stage Analysis**
-
-Calculated the sum of 'total_laid_off' for companies at each stage (e.g., startup, growth, mature) to see how layoffs vary with company maturity.
+   Calculated the sum of 'total_laid_off' for companies at each stage (e.g., startup, growth, mature) to see how layoffs vary with company maturity.
 
 11. **Monthly and Yearly Layoff Trends**
-
-Calculated the sum of 'total_laid_off' by both month and year to identify seasonal or yearly patterns in layoffs.
+   Calculated the sum of 'total_laid_off' by both month and year to identify seasonal or yearly patterns in layoffs.
 
 
