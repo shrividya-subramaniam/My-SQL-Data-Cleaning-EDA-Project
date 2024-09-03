@@ -72,6 +72,6 @@ The following SQL queries were executed to analyze the layoffs data:
 
 10. **Monthly and Yearly Layoff Trends**
  
-   Calculated the sum of 'total_laid_off' by both month and year to identify seasonal or yearly patterns in layoffs.
+    Calculated the sum of 'total_laid_off' by both month and year to identify seasonal or yearly patterns in layoffs.
 
 
