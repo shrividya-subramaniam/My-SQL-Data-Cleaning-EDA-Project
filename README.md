@@ -2,11 +2,14 @@
 Data Cleaning and Exploratory Data Analysis of Layoffs Data in MySQL
 
 
+
 ## Problem Statement
 To perform a comprehensive data cleaning and exploratory data analysis (EDA) on a dataset containing data on layoffs across various companies 
 
 
+
 ## Data 
+
 
 #### Data Dictionary
 Feature | Description |
@@ -21,7 +24,9 @@ stage | Funding stage of the company
 funds_raised_millions | Funds (in millions) raised by the company
 
 
+
 ## Data Cleaning
+
 
 #### Steps in Data Cleaning
 1. Remove duplicates
@@ -30,7 +35,9 @@ funds_raised_millions | Funds (in millions) raised by the company
 4. Remove any unnecessary columns
 
 
+
 ## Exploratory Data Analysis
+
 
 The following SQL queries were executed to analyze the layoffs data:
 
@@ -68,7 +75,7 @@ The following SQL queries were executed to analyze the layoffs data:
    
 9. **Company Stage Analysis**
     
-   Calculated the sum of 'total_laid_off' for companies at each stage (e.g., startup, growth, mature) to see how layoffs vary with company maturity.
+   Calculated the sum of 'total_laid_off' for companies at each stage (e.g., Post-IPO, Acquired, Series A) to see how layoffs vary with company maturity.
 
 10. **Monthly and Yearly Layoff Trends**
  
